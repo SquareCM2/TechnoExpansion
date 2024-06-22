@@ -1,17 +1,17 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "科技扩展"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "TechnoExpansion"
 
 #your name
-author: "You"
+author: "SquareCM2"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "squarecm.TechnoExpansion"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "More technological item and blocks"
 
 #the mod version
 version: 1.0
