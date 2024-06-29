@@ -4,7 +4,7 @@ import arc.graphics.Color;
 import mindustry.type.*;
 
 public class ModItem {
-    public static Item iron, rawIron, germanium ,steel;
+    public static Item iron, rawIron, germanium ,steel, aluminium;
     public static void load()
     {
         iron = new Item("iron", Color.valueOf("6e7080"))
@@ -25,6 +25,12 @@ public class ModItem {
         {{
             hardness = 2;
             cost = 2;
+        }};
+
+        aluminium = new Item("aluminium", Color.valueOf("aluminium"))
+        {{
+           hardness = 2;
+           cost = 2;
         }};
 
         steel = new Item("steel", Color.valueOf("95a0bc"))
